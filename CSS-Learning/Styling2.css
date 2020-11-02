@@ -1,0 +1,34 @@
+@font-face {
+  font-family: oraqle;
+  src: url("assets/Oraqle.ttf");
+  font-weight: lighter;
+}
+body{
+  background-image: url(assets/Shinchan.png);
+  background-size: 700px;
+ background-repeat: no-repeat;
+  font-family:cursive;
+color: #000c46;
+text-align: center;
+}
+a:hover{
+  color: #ffddee
+}
+nav a{
+  display: inline;
+}
+h1{
+  font-family: oraqle;
+  font-size: 100px;
+  letter-spacing: 5px;
+}
+a:active{
+  background-color: #aaaeee;
+  padding: 3px;
+  border-radius: 10%;
+}
+.opened{
+  background-color: #bbbfff;
+  padding: 3px;
+  border-radius: 10%;
+}
